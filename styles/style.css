@@ -1,7 +1,44 @@
-body{
-    padding: 0;
+*{
     margin: 0;
+}
+body{
     font-family: 'Open Sans', sans-serif;
 }
-
+.btn-primary{
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border: none; 
+    padding: 20px 25px;
+    border-radius: 5px;
+    background-color: #fff;
+}
 /* main styles starts here */
+header{
+    padding-top: 216px;
+    padding-bottom: 200px;
+    background-image: url(../images/banner/banner3.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.banner-content{
+    color: #fff;
+    text-align: right;
+    margin-left: 500px;
+}
+.banner-header{
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+    margin-left: 200px;
+}
