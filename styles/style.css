@@ -15,6 +15,10 @@ body{
 }
 /* main styles starts here */
 
+section{
+    margin: 130px 0;
+}
+
 /* header styles starts here */
 header{
     padding-top: 216px;
@@ -51,9 +55,9 @@ header{
     display: flex;
     align-items: center;
     column-gap: 87px;
-    margin: 130px 0;
+    
 }
-.failure-content-title{
+.section-title{
     color: #151414;
     font-weight: 700;
     font-size: 40px;
@@ -72,4 +76,24 @@ header{
 .failure-item img{
     width: 24px;
 }
+
+/* -------------------
+    my plans styles start here
+--------------------- */
+.plans-section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plans-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+}
+.plans-info{
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
 /* main section styles starts here */
