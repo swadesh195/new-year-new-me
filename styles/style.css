@@ -120,3 +120,59 @@ header{
 }
 
 /* main section styles starts here */
+
+/* footer styles starts here */
+footer{
+    color: #fff;
+    background-color: #151414;
+    padding: 130px 0;
+}
+.social-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.social-description{
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.social-email{
+    margin-bottom: 16px;
+}
+.social-phone{
+    margin-bottom: 16px;
+}
+.social-icon{
+    margin-right: 18px;
+}
+
+/* newsletter style starts here */
+.social{
+    display: flex;
+    column-gap: 331px;
+    /* margin: 0 230px; */
+    justify-content: space-around;
+}
+.newsletter-title{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+input[type="text"] {
+    width: 325px;
+    color: #fff;
+    padding: 20px 15px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    margin-bottom: 16px;
+}
+::placeholder{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+.subscribe{
+    color: #fff;
+    background-color: #005FAC;
+}
