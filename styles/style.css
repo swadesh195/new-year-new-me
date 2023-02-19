@@ -14,6 +14,8 @@ body{
     background-color: #fff;
 }
 /* main styles starts here */
+
+/* header styles starts here */
 header{
     padding-top: 216px;
     padding-bottom: 200px;
@@ -42,3 +44,4 @@ header{
     margin-bottom: 32px;
     margin-left: 200px;
 }
+/* header styles ends here */
