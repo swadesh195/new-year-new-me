@@ -100,6 +100,23 @@ header{
     font-weight: 500;
     font-size: 25px;
 }
-
+/* ------------------------------
+    call now styles starts here
+--------------------------------- */
+.call-now{
+    padding: 64px 59px;
+    background-image: url(../images/watch.png), linear-gradient(90deg, #005FAC, rgba(0, 95, 172, 0) 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 8px;
+}
+.call-now-title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
 
 /* main section styles starts here */
