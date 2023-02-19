@@ -45,3 +45,31 @@ header{
     margin-left: 200px;
 }
 /* header styles ends here */
+
+/* main section styles starts here */
+.failure{
+    display: flex;
+    align-items: center;
+    column-gap: 87px;
+    margin: 130px 0;
+}
+.failure-content-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.failure-content-description{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.failure-item{
+    display: flex;
+    column-gap: 10px;
+}
+.failure-item img{
+    width: 24px;
+}
+/* main section styles starts here */
